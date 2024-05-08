@@ -31,9 +31,9 @@ Material:
     m_Floats:
     - _BloomThreshold: 1
     - _FlickerFrequency: 10
-    - _FlickerIntensity: 0.1
+    - _FlickerIntensity: 0.218
     - _LensDistortionStrength: 0
-    - _RGBOffset: 0.005
+    - _RGBOffset: 0
     - _ScanlineIntensity: 5
     - _ScanlineWidth: 0.1
     - _VignetteIntensity: 0.48
