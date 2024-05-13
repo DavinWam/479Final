@@ -429,12 +429,12 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _HeightAmplitude: 0.02
     - _HeightAmplitude0: 150
-    - _HeightAmplitude1: 101
+    - _HeightAmplitude1: 150
     - _HeightAmplitude2: 201
     - _HeightAmplitude3: 0.79999995
     - _HeightCenter: 0.5
     - _HeightCenter0: 0.6666667
-    - _HeightCenter1: 0.990099
+    - _HeightCenter1: 0.6666667
     - _HeightCenter2: 0.99502486
     - _HeightCenter3: 1.25
     - _HeightMapParametrization: 0
@@ -444,7 +444,7 @@ Material:
     - _HeightMapParametrization3: 0
     - _HeightMax: 1
     - _HeightMax0: 5000
-    - _HeightMax1: 100
+    - _HeightMax1: 5000
     - _HeightMax2: 100
     - _HeightMax3: -20
     - _HeightMin: -1
