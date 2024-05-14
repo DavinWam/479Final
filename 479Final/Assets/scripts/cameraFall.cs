@@ -17,10 +17,6 @@ public class cameraFall : MonoBehaviour
         //Disable the look script
         GetComponent<CameraRotation>().enabled = false;
 
-        //Store start and end values
-        Vector3 startPos = transform.position;
-        Vector3 endPos = new Vector3(-1.56805336f, 2.01018572f, -12.04f);
-
         Quaternion startRot = transform.rotation;
         Quaternion endRot = Quaternion.Euler(0, 160.339005f, 9.45300007f);
 
@@ -29,13 +25,11 @@ public class cameraFall : MonoBehaviour
         //Rotate and move the camera to the proper place over 3 seconds
         while (slerpTimer < 1)
         {
-            transform.position = Vector3.Lerp(startPos, endPos, slerpTimer);
             transform.rotation = Quaternion.Slerp(startRot, endRot, slerpTimer);
 
             slerpTimer += Time.deltaTime / 3;
             yield return null;
         }
-        transform.position = endPos;
         transform.rotation = endRot;
 
         //Make camera shake as looking at creature
