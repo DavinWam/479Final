@@ -431,12 +431,12 @@ Material:
     - _HeightAmplitude0: 150
     - _HeightAmplitude1: 150
     - _HeightAmplitude2: 201
-    - _HeightAmplitude3: 0.79999995
+    - _HeightAmplitude3: 90
     - _HeightCenter: 0.5
     - _HeightCenter0: 0.6666667
     - _HeightCenter1: 0.6666667
     - _HeightCenter2: 0.99502486
-    - _HeightCenter3: 1.25
+    - _HeightCenter3: 1.1111112
     - _HeightMapParametrization: 0
     - _HeightMapParametrization0: 0
     - _HeightMapParametrization1: 0
@@ -446,12 +446,12 @@ Material:
     - _HeightMax0: 5000
     - _HeightMax1: 5000
     - _HeightMax2: 100
-    - _HeightMax3: -20
+    - _HeightMax3: -1000
     - _HeightMin: -1
     - _HeightMin0: -10000
     - _HeightMin1: -10000
     - _HeightMin2: -20000
-    - _HeightMin3: -100
+    - _HeightMin3: -10000
     - _HeightOffset: 0
     - _HeightOffset0: 0
     - _HeightOffset1: 0
@@ -506,7 +506,7 @@ Material:
     - _MetallicRemapMax0: 1
     - _MetallicRemapMax1: 0
     - _MetallicRemapMax2: 1
-    - _MetallicRemapMax3: 1
+    - _MetallicRemapMax3: 0
     - _MetallicRemapMin: 0
     - _MetallicRemapMin0: 0
     - _MetallicRemapMin1: 0
@@ -545,10 +545,10 @@ Material:
     - _Smoothness2: 0.5
     - _Smoothness3: 0.5
     - _SmoothnessRemapMax: 1
-    - _SmoothnessRemapMax0: 0.6545769
+    - _SmoothnessRemapMax0: 0.71329206
     - _SmoothnessRemapMax1: 0.33074266
     - _SmoothnessRemapMax2: 0.36096722
-    - _SmoothnessRemapMax3: 0.3523316
+    - _SmoothnessRemapMax3: 0.7098779
     - _SmoothnessRemapMin: 0
     - _SmoothnessRemapMin0: 0
     - _SmoothnessRemapMin1: 0
