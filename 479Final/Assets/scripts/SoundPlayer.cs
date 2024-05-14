@@ -3,8 +3,14 @@ using UnityEngine;
 public class SoundPlayer : MonoBehaviour
 {
     public AudioSource audioSource;
+    
     public AudioClip[] audioClips;
     private int currentIndex = 0;
+
+    void Start(){
+
+        audioSource = GetComponent<AudioSource>();
+    }
 
     // Method to play the next sound in the list
     public void PlayNextSound()
